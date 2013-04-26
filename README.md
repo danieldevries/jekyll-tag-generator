@@ -15,4 +15,4 @@ How to use
 Acknowledgements
 ===
 
-Base on [Charlie Park](http://charliepark.org/tags-in-jekyll/)
+Based on [Charlie Park](http://charliepark.org/tags-in-jekyll/)'s implementation
