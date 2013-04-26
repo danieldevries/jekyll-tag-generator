@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<ul>{% for post in site.posts %}{% for tag in post.tags %}{% if tag == page.tag %}
+  <li>
+    <time datetime='{{post.date | date: "%Y-%m-%d"}}'>{{post.date | date: "%d/%m/%Y"}}</time>
+    <a href='{{post.url}}'>{{post.title}}</a>
+  </li>{% endif %}{% endfor %}{% endfor %}
+</ul>
+
+<p><a href="/tags/">view all tags</a></p>
